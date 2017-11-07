@@ -1,0 +1,48 @@
+in lessone 1, I learned about some basic command of mac terminal operation
+cd name # change the directory
+ls route # list the file in this directory
+pwd # print working directory
+mkdir name # make new directory
+ls -a # list all the file in this directory including the hidden file
+touch .bash_profile # create the .bash_profile file
+open .bash_profile # open the .bash_profile file
+Add a line "export PATH=$PATH:/Applications/Sublime\ Text.app/Contents/SharedSupport/bin" in the .bash_profile to add the subl comand in the terminal
+After adding the Path in .bash_profile, I can directly start Sublime by typing subl in command
+And typing "subl lesson_1_reflection.txt" create a txt file ase its name
+
+Also, with command in mac "diff -u old_file_name new_file_name" I can quickly locate the difference between old and new file
+
+
+Here I will answer the HW questions:
+
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+    diff -u old_file_name new_file_name 
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    by using an version control system, we can keep track with the history of a file, such like dropbox, google doc and so on
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+    Manually choosing when to create a commit will make the change and diff clear, becasue we usually choose a logical change as a commit point. But the judgement of commit is flexible
+    Automatically saving depents on settings, sometimes there're some unnecessary savings.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+    some files are highly related so if we could bundle them as one commit, it will be easier and more efficient for us to keep track of the change.
+    While others VC like google doc, we have to treat them seperately, though it will also work, but it's less efficient and more anoying
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log give me all the history of the repository, git diff could compare to commit and show the changes
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    I can get get into old version anytime by check out the old commit. It helps me check the origin of the bug easily
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I'd like to use Git to keep track of my versions of file, or files using repository.
+
